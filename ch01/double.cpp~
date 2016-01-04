@@ -1,0 +1,12 @@
+#include <iostream>
+
+int doubleInt(int a)
+{
+  return a * 2;
+}
+
+int main() 
+{
+  std::cout << doubleInt(4) << std::endl;
+  return 0;
+}
