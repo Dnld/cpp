@@ -1,0 +1,12 @@
+#include <iostream>
+
+void printer()
+{
+  std::cout << "inside printer" << std::endl;
+}
+
+int main()
+{
+  printer();
+  return 0;
+}
