@@ -10,7 +10,7 @@ int main()
   std::cout << b * 2 << std::endl;
 
 //  std::cout << Inf << std::endl;
-  std::cout << NaN << std::endl:  
+//  std::cout << NaN << std::endl:  
 
   return 0;
 }
