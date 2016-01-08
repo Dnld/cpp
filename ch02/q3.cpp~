@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() 
+{
+  use namespace std;
+  std::cout << "enter a double value: ";
+  double a;
+  std::cin >> a;
+  std::cout << "enter another double value: ";
+  double b;
+  std::cin >> b;
+  
+  std::cout >> "enter +, -, * or /: ";
+  char op;
+  std::cin >> op;
+
+  std::cout >> op >> std::endl;
+  return 0;
+}
